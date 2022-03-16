@@ -87,39 +87,7 @@ for i = 1:maxgen
     countloss=countloss+1;
 end
  rddata =real(X*W);
- 
- %plot(Loss)
-% heatlabel=S;
-% heatlabel(heatlabel ~= 0)=heatlabel(heatlabel ~= 0)+0.5; 
-% for j=1:size(heatlabel, 1)
-%         heatlabel(j, j) = max(max(heatlabel));
-% end  
-%  [~,position]=sort(heatlabel,'descend');
-%      for sorti=1:data_row
-%          for sortj=1:data_row
-%              if(sorti>12)
-%                heatlabel(position(sorti,sortj),sortj)=0;
-%              end
-%          end
-%      end
-% heatmapHandle = heatmap( heatlabel, 'ColorMap', jet(100));
-%  XLabels = 1:178;
-% % Convert each number in the array into a string
-% CustomXLabels = string(XLabels);
-% % Replace all but the fifth elements by spaces
-% CustomXLabels(mod(XLabels,10) ~= 0) = " ";
-% % Set the 'XDisplayLabels' property of the heatmap 
-% % object 'h' to the custom x-axis tick labels
-% heatmapHandle.XDisplayLabels = CustomXLabels;
-%  YLabels = 1:178;
-% % Convert each number in the array into a string
-% CustomYLabels = string(YLabels);
-% % Replace all but the fifth elements by spaces
-% CustomYLabels(mod(YLabels,10) ~= 0) = " ";
-% % Set the 'XDisplayLabels' property of the heatmap 
-% % object 'h' to the custom x-axis tick labels
-% heatmapHandle.YDisplayLabels = CustomYLabels;
-% 
+
 end
 
 
